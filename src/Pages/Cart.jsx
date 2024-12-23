@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Cart.css';
-import { food_list } from '../../assets/assets';
+import '../Components/App.css';
+import { food_list } from '../assets/assets';
 
 const Cart = () => {
   const navigate = useNavigate();

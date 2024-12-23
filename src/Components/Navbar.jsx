@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import  './Navbar.css'
-import {assets}  from   '../../assets/assets'
+import './App.css'
+import {assets}  from   '../assets/assets'
 import { Link } from 'react-router-dom'
-import LoginPopup from '../LoginPopup/LoginPopup'
+import LoginPopup from './LoginPopup'
 
 const Navbar = ({setShowLogin})=>{
     const [menu,setMenu] = useState("home")

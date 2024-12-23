@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import './App.css';
-import Navbar from './components/Navbar/Navbar.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home/Home';
-import Footer from './components/Footer/Footer'
-import LoginPopup from './components/LoginPopup/LoginPopup'
-import Cart from './Pages/Cart/Cart'
-import PlaceOrder from './Pages/PlaceOrder/PlaceOrder'
+import Navbar from './Components/Navbar';
+import LoginPopup from './Components/LoginPopup';
+import Home from './Pages/Home'
+import Cart from './Pages/Cart'
+import PlaceOrder from './Pages/PlaceOrder'
+import Footer from './Components/Footer';
 
 
 function App() {

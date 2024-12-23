@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { assets, food_list } from "../../assets/assets";
-import './FoodDisplay.css';
+import { assets, food_list } from "../assets/assets";
+import './App.css';
 
 const FoodDisplay = ( ) => {
   const [counts, setCounts] = useState({}); 
@@ -30,7 +30,7 @@ const FoodDisplay = ( ) => {
                  <img src={item.image} alt="" />
                </div>
                <p>{item.name}</p>
-               <img src="/rating_starts.png" alt="Rating Stars" className="stars" />
+               <img src='/rating_starts.png' alt="Rating Stars" className="stars" />
                <p>{item.description}</p>
                <p>${item.price}</p>
                <div className="counter">

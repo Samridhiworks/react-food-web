@@ -416,6 +416,14 @@ position: absolute;
   .footer p {
     text-align: justify;
   }
+
+.footer hr{
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+    margin:0;
+}
   
   .footer-social-icons img:hover {
     background: tomato;

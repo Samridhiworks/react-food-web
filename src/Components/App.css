@@ -418,11 +418,8 @@ position: absolute;
   }
 
 .footer hr{
-    color: inherit;
-    border: 0;
-    border-top: var(--bs-border-width) solid;
-    opacity: .25;
-    margin:0;
+    display:none
+    
 }
   
   .footer-social-icons img:hover {

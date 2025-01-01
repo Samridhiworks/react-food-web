@@ -32,7 +32,7 @@ const Footer =()=>{
             </ul>
            </div>
         </div>
-        <hr/>
+
         <div className="footer-2">
          <p className="footer-copyright">
           Copyright 2025 @ Tomato.com - All Right Reserved 
